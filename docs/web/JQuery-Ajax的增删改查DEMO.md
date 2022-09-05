@@ -4,7 +4,7 @@
 
 >选中某个元素,获取某个元素的值
 >
->​	$(selector) .val()
+>​	$(selector) .val()  ( js中获取值document.querySelector("#id").value;)
 
 ```js
 //获取用户名的值
