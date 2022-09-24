@@ -21,3 +21,4 @@
 - [知识盲区](web/%E7%9F%A5%E8%AF%86%E7%9B%B2%E5%8C%BA.md)
 - [另一种方式 的通道之 SSM](web/%E5%8F%A6%E4%B8%80%E7%A7%8D%E6%96%B9%E5%BC%8F%20%E7%9A%84%E9%80%9A%E9%81%93%E4%B9%8BSSM.md)
 - [面试之重点突出](web/%E9%9D%A2%E8%AF%95%E4%B9%8B%E9%87%8D%E7%82%B9%E7%AA%81%E5%87%BA.md)
+- [VUE](web/VUE.md)

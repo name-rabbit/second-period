@@ -72,7 +72,7 @@
 | /emp    | POST     | 新增一个数据（提交的资源数据是封装在请求体中的） |
 | /emp    | PUT      | 根据id来更新一个记录                             |
 
-```
+```java
 	@GetMapping("/emp/{id}")
     public Emp findById(@PathVariable("id") Integer employeeId){
         return null;
@@ -255,6 +255,8 @@ const dd = [];//数组里面存对象
 
 500 - 内部服务器错误
 
+#### 上传图片和下载图片
+
 #### 官方文档之项目自我总结版（图片的上传dropzone）
 
 一定要学着慢慢看文档
@@ -274,6 +276,21 @@ ctr+table切换文件
 ctr+e全局搜索编写的文件
 
 ![image-20220920201036165](img/image-20220920201036165.png)
+
+#### C端的操作
+
+POJO跟数据库表中的table对应的
+DTO在后台的层与层之间传递数据用的
+
+VO主要是给视图层使用的
+
+箭头函数击穿作用域要注意，使用匿名函数this是当前对象不会是windows对象
+
+jquery对象的封装与使用
+
+>$(`字符串模板`)
+
+![image-20220923211559749](img/image-20220923211559749.png)
 
 #### MybatisPlus的再学习
 
